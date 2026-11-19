@@ -1,0 +1,203 @@
+{
+  "overall_accuracy": 69.0,
+  "macro_precision": 64.12,
+  "macro_recall": 69.0,
+  "macro_f1": 65.49,
+  "total_test_samples": 100,
+  "classes": [
+    "Tomato___healthy",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Potato___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Pepper__bell___healthy",
+    "Pepper__bell___Bacterial_spot",
+    "Corn_(maize)___healthy",
+    "Corn_(maize)___Common_rust_"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      3,
+      1,
+      0,
+      6,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      6,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      4,
+      2,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      3,
+      0,
+      0,
+      7,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      9
+    ]
+  ],
+  "class_metrics": {
+    "Tomato___healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 10
+    },
+    "Tomato___Early_blight": {
+      "precision": 42.86,
+      "recall": 30.0,
+      "f1_score": 35.29,
+      "support": 10
+    },
+    "Tomato___Late_blight": {
+      "precision": 50.0,
+      "recall": 60.0,
+      "f1_score": 54.55,
+      "support": 10
+    },
+    "Potato___healthy": {
+      "precision": 50.0,
+      "recall": 100.0,
+      "f1_score": 66.67,
+      "support": 10
+    },
+    "Potato___Early_blight": {
+      "precision": 40.0,
+      "recall": 40.0,
+      "f1_score": 40.0,
+      "support": 10
+    },
+    "Potato___Late_blight": {
+      "precision": 58.33,
+      "recall": 70.0,
+      "f1_score": 63.64,
+      "support": 10
+    },
+    "Pepper__bell___healthy": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    },
+    "Pepper__bell___Bacterial_spot": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    },
+    "Corn_(maize)___healthy": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1_score": 100.0,
+      "support": 10
+    },
+    "Corn_(maize)___Common_rust_": {
+      "precision": 100.0,
+      "recall": 90.0,
+      "f1_score": 94.74,
+      "support": 10
+    }
+  }
+}
